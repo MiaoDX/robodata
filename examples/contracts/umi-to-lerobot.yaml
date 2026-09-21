@@ -1,0 +1,37 @@
+# Illustrative only. The contract schema is not stable.
+contract_id: client_a_umi_ee_v3
+contract_version: "0.1"
+
+source:
+  capability_profile: umi.ee_motion.metric
+
+target:
+  format: lerobot
+  format_version: "3"
+  reader_lockfile: client_a_reader.lock
+
+sampling:
+  output_hz: 20
+  image_selection: latest_available
+  max_image_age_ms: 60
+  missing_required_stream: reject_segment
+  clock_mapping_release: sync_release_4
+
+action:
+  source_role: demonstration.motion
+  output_role: derived_demonstration_target
+  space: end_effector
+  representation: relative_to_window_anchor
+  reference_frame: world
+  rotation: quaternion_xyzw
+  gripper_representation: absolute_width_m
+
+quality:
+  profile: client_a_training_quality_v2
+  allow_estimated_pose: true
+  allow_retargeted_joint_action: false
+
+delivery:
+  include_provenance: true
+  include_source_sample_mapping: true
+  require_target_reader_test: true
