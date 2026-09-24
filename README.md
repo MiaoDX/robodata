@@ -43,6 +43,8 @@ format or API should be treated as stable yet.
 
 - [Architecture](docs/architecture.md)
 - [Deep research synthesis](docs/research/deep-research.md)
+- [Industry landscape 2026](docs/research/industry-landscape-2026.md)
+- [Perspectives: supplier and training consumer](docs/perspectives/README.md)
 - [Initial roadmap](docs/roadmap.md)
 - [Naming decision](docs/decisions/0001-project-naming.md)
 - [IR and contract decision](docs/decisions/0002-semantic-ir-and-contracts.md)
