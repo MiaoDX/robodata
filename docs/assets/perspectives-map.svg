@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="764" height="406" viewBox="0 0 764 406" role="img" aria-labelledby="t d" font-family="Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif">
+<title id="t">Perspectives map</title><desc id="d">Matrix of roles against lifecycle stages showing primary responsibilities and influences.</desc>
+<defs><marker id="ar" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#5b6475"/></marker>
+<marker id="arb" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#3b6fb6"/></marker>
+<marker id="arr" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#c0392b"/></marker></defs>
+<rect width="764" height="406" rx="14" fill="#ffffff"/>
+<text x="24" y="34" font-size="18" font-weight="700" fill="#1f2430" text-anchor="start" >Who touches which stage</text>
+<text x="24" y="56" font-size="12.5" font-weight="400" fill="#5b6475" text-anchor="start" >● primary responsibility   ○ consumes or influences</text>
+<text x="251.0" y="86" font-size="11" font-weight="600" fill="#5b6475" text-anchor="middle" >Capture</text>
+<text x="325.0" y="86" font-size="11" font-weight="600" fill="#5b6475" text-anchor="middle" >Evidence</text>
+<text x="399.0" y="86" font-size="11" font-weight="600" fill="#5b6475" text-anchor="middle" >Derivation</text>
+<text x="473.0" y="86" font-size="11" font-weight="600" fill="#5b6475" text-anchor="middle" >Curation</text>
+<text x="547.0" y="86" font-size="11" font-weight="600" fill="#5b6475" text-anchor="middle" >Release</text>
+<text x="621.0" y="86" font-size="11" font-weight="600" fill="#5b6475" text-anchor="middle" >Training</text>
+<text x="695.0" y="86" font-size="11" font-weight="600" fill="#5b6475" text-anchor="middle" >Evaluation</text>
+<rect x="16" y="96" width="732" height="40" rx="6" fill="#f6f8fb"/>
+<text x="24" y="113" font-size="13" font-weight="700" fill="#1f2430" text-anchor="start" >Collector</text>
+<text x="24" y="128" font-size="10.5" font-weight="400" fill="#5b6475" text-anchor="start" >consent · pay · task clarity</text>
+<circle cx="251.0" cy="116.0" r="8" fill="#3b6fb6"/>
+<text x="24" y="153" font-size="13" font-weight="700" fill="#1f2430" text-anchor="start" >Supplier</text>
+<text x="24" y="168" font-size="10.5" font-weight="400" fill="#5b6475" text-anchor="start" >cost · single source · metering</text>
+<circle cx="251.0" cy="156.0" r="8" fill="#3b6fb6"/>
+<circle cx="325.0" cy="156.0" r="8" fill="#3b6fb6"/>
+<circle cx="399.0" cy="156.0" r="8" fill="#3b6fb6"/>
+<circle cx="473.0" cy="156.0" r="8" fill="#3b6fb6"/>
+<circle cx="547.0" cy="156.0" r="8" fill="#3b6fb6"/>
+<circle cx="695.0" cy="156.0" r="7" fill="#fff" stroke="#3b6fb6" stroke-width="2"/>
+<rect x="16" y="176" width="732" height="40" rx="6" fill="#f6f8fb"/>
+<text x="24" y="193" font-size="13" font-weight="700" fill="#1f2430" text-anchor="start" >Platform</text>
+<text x="24" y="208" font-size="10.5" font-weight="400" fill="#5b6475" text-anchor="start" >catalog · lineage · search</text>
+<circle cx="325.0" cy="196.0" r="8" fill="#3b6fb6"/>
+<circle cx="399.0" cy="196.0" r="8" fill="#3b6fb6"/>
+<circle cx="473.0" cy="196.0" r="8" fill="#3b6fb6"/>
+<circle cx="547.0" cy="196.0" r="7" fill="#fff" stroke="#3b6fb6" stroke-width="2"/>
+<text x="24" y="233" font-size="13" font-weight="700" fill="#1f2430" text-anchor="start" >Acceptance</text>
+<text x="24" y="248" font-size="10.5" font-weight="400" fill="#5b6475" text-anchor="start" >audit · reconcile hours</text>
+<circle cx="473.0" cy="236.0" r="7" fill="#fff" stroke="#3b6fb6" stroke-width="2"/>
+<circle cx="547.0" cy="236.0" r="8" fill="#3b6fb6"/>
+<rect x="16" y="256" width="732" height="40" rx="6" fill="#f6f8fb"/>
+<text x="24" y="273" font-size="13" font-weight="700" fill="#1f2430" text-anchor="start" >Training consumer</text>
+<text x="24" y="288" font-size="10.5" font-weight="400" fill="#5b6475" text-anchor="start" >semantics · throughput</text>
+<circle cx="473.0" cy="276.0" r="7" fill="#fff" stroke="#3b6fb6" stroke-width="2"/>
+<circle cx="547.0" cy="276.0" r="8" fill="#3b6fb6"/>
+<circle cx="621.0" cy="276.0" r="8" fill="#3b6fb6"/>
+<circle cx="695.0" cy="276.0" r="7" fill="#fff" stroke="#3b6fb6" stroke-width="2"/>
+<text x="24" y="313" font-size="13" font-weight="700" fill="#1f2430" text-anchor="start" >Evaluator</text>
+<text x="24" y="328" font-size="10.5" font-weight="400" fill="#5b6475" text-anchor="start" >failure attribution</text>
+<circle cx="473.0" cy="316.0" r="7" fill="#fff" stroke="#3b6fb6" stroke-width="2"/>
+<circle cx="621.0" cy="316.0" r="7" fill="#fff" stroke="#3b6fb6" stroke-width="2"/>
+<circle cx="695.0" cy="316.0" r="8" fill="#3b6fb6"/>
+<rect x="24" y="350" width="716" height="40" rx="8" fill="#f5f7fa"/>
+<text x="38" y="367" font-size="11.5" font-weight="400" fill="#1f2430" text-anchor="start" >Every normative feature in spec/ should trace back to a need in at least one row.</text>
+<text x="38" y="382" font-size="11.5" font-weight="400" fill="#5b6475" text-anchor="start" >Rows are roles, not companies: one organization may play several.</text></svg>

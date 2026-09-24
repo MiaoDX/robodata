@@ -14,6 +14,10 @@ RoboData is the project and SDK namespace. **RoboData IR (RDIR)** is the
 canonical semantic model. **RDX (Robot Data Exchange)** is the transformation,
 validation, and delivery runtime.
 
+For the full data lifecycle, who touches which stage, and how a delivered
+sample traces back to evidence, see the
+[visual guide](docs/visual-guide.md).
+
 ## Why RoboData
 
 Robotics datasets often collapse asynchronous streams into an episode table,
@@ -43,6 +47,7 @@ format or API should be treated as stable yet.
 
 - [Architecture](docs/architecture.md)
 - [Deep research synthesis](docs/research/deep-research.md)
+- [Visual guide: the life of robotics data](docs/visual-guide.md)
 - [Industry landscape 2026](docs/research/industry-landscape-2026.md)
 - [Perspectives: supplier and training consumer](docs/perspectives/README.md)
 - [Initial roadmap](docs/roadmap.md)
