@@ -3,6 +3,8 @@
 ## Foundations
 
 - [Architecture](architecture.md) — system boundaries and core abstractions
+- [Visual guide](visual-guide.md) — lifecycle, roles, lineage, time, actions,
+  metering, materialization, and training scale in diagrams
 - [Deep research synthesis](research/deep-research.md) — evidence, risks, and
   recommendations behind the architecture
 - [Roadmap](roadmap.md) — proposed validation-first milestones

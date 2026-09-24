@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="764" height="364" viewBox="0 0 764 364" role="img" aria-labelledby="t d" font-family="Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif">
+<title id="t">Action representations</title><desc id="d">The same four poses encoded as absolute poses, relative to a fixed anchor, and as stepwise deltas.</desc>
+<defs><marker id="ar" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#5b6475"/></marker>
+<marker id="arb" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#3b6fb6"/></marker>
+<marker id="arr" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#c0392b"/></marker></defs>
+<rect width="764" height="364" rx="14" fill="#ffffff"/>
+<text x="24" y="34" font-size="18" font-weight="700" fill="#1f2430" text-anchor="start" >One trajectory, three action representations</text>
+<text x="24" y="56" font-size="12.5" font-weight="400" fill="#5b6475" text-anchor="start" >Same poses T_0…T_3. Values differ, and so does how errors accumulate when a policy replays them.</text>
+<rect x="24" y="74" width="232" height="218" rx="10" fill="#f8f9fb" stroke="#d6dae2"/>
+<text x="38" y="98" font-size="14" font-weight="700" fill="#1f2430" text-anchor="start" >Absolute</text>
+<text x="38" y="118" font-size="12" font-weight="400" fill="#3b6fb6" text-anchor="start" font-family="ui-monospace,Menlo,monospace">a_k = T_k in world frame</text>
+<path d="M60 244 L94 174 L164 149 L220 209" fill="none" stroke="#d6dae2" stroke-width="6" stroke-linecap="round"/>
+<rect x="224" y="265" width="10" height="10" fill="#5b6475"/>
+<text x="219" y="274" font-size="10.5" font-weight="400" fill="#5b6475" text-anchor="end" >world</text>
+<line x1="229" y1="270" x2="66.9" y2="245.1" stroke="#3b6fb6" stroke-width="1.5" marker-end="url(#arb)"/>
+<line x1="229" y1="270" x2="99.7" y2="178.1" stroke="#3b6fb6" stroke-width="1.5" marker-end="url(#arb)"/>
+<line x1="229" y1="270" x2="167.3" y2="155.2" stroke="#3b6fb6" stroke-width="1.5" marker-end="url(#arb)"/>
+<line x1="229" y1="270" x2="221.0" y2="215.9" stroke="#3b6fb6" stroke-width="1.5" marker-end="url(#arb)"/>
+<circle cx="60" cy="244" r="5" fill="#fff" stroke="#1f2430" stroke-width="1.5"/>
+<text x="67" y="237" font-size="11" font-weight="600" fill="#1f2430" text-anchor="start" >T0</text>
+<circle cx="94" cy="174" r="5" fill="#fff" stroke="#1f2430" stroke-width="1.5"/>
+<text x="101" y="167" font-size="11" font-weight="600" fill="#1f2430" text-anchor="start" >T1</text>
+<circle cx="164" cy="149" r="5" fill="#fff" stroke="#1f2430" stroke-width="1.5"/>
+<text x="171" y="142" font-size="11" font-weight="600" fill="#1f2430" text-anchor="start" >T2</text>
+<circle cx="220" cy="209" r="5" fill="#fff" stroke="#1f2430" stroke-width="1.5"/>
+<text x="227" y="202" font-size="11" font-weight="600" fill="#1f2430" text-anchor="start" >T3</text>
+<rect x="270" y="74" width="232" height="218" rx="10" fill="#f8f9fb" stroke="#d6dae2"/>
+<text x="284" y="98" font-size="14" font-weight="700" fill="#1f2430" text-anchor="start" >Fixed-anchor relative</text>
+<text x="284" y="118" font-size="12" font-weight="400" fill="#3b6fb6" text-anchor="start" font-family="ui-monospace,Menlo,monospace">R_k = T_0⁻¹ · T_k</text>
+<path d="M306 244 L340 174 L410 149 L466 209" fill="none" stroke="#d6dae2" stroke-width="6" stroke-linecap="round"/>
+<line x1="306" y1="244" x2="336.9" y2="180.3" stroke="#3b6fb6" stroke-width="1.5" marker-end="url(#arb)"/>
+<line x1="306" y1="244" x2="404.8" y2="153.7" stroke="#3b6fb6" stroke-width="1.5" marker-end="url(#arb)"/>
+<line x1="306" y1="244" x2="459.2" y2="210.5" stroke="#3b6fb6" stroke-width="1.5" marker-end="url(#arb)"/>
+<text x="284" y="280" font-size="10.5" font-weight="400" fill="#5b6475" text-anchor="start" >anchor T0 = window start</text>
+<circle cx="306" cy="244" r="5" fill="#fff" stroke="#1f2430" stroke-width="1.5"/>
+<text x="313" y="237" font-size="11" font-weight="600" fill="#1f2430" text-anchor="start" >T0</text>
+<circle cx="340" cy="174" r="5" fill="#fff" stroke="#1f2430" stroke-width="1.5"/>
+<text x="347" y="167" font-size="11" font-weight="600" fill="#1f2430" text-anchor="start" >T1</text>
+<circle cx="410" cy="149" r="5" fill="#fff" stroke="#1f2430" stroke-width="1.5"/>
+<text x="417" y="142" font-size="11" font-weight="600" fill="#1f2430" text-anchor="start" >T2</text>
+<circle cx="466" cy="209" r="5" fill="#fff" stroke="#1f2430" stroke-width="1.5"/>
+<text x="473" y="202" font-size="11" font-weight="600" fill="#1f2430" text-anchor="start" >T3</text>
+<rect x="516" y="74" width="232" height="218" rx="10" fill="#f8f9fb" stroke="#d6dae2"/>
+<text x="530" y="98" font-size="14" font-weight="700" fill="#1f2430" text-anchor="start" >Stepwise delta</text>
+<text x="530" y="118" font-size="12" font-weight="400" fill="#3b6fb6" text-anchor="start" font-family="ui-monospace,Menlo,monospace">Δ_k = T_(k−1)⁻¹ · T_k</text>
+<path d="M552 244 L586 174 L656 149 L712 209" fill="none" stroke="#d6dae2" stroke-width="6" stroke-linecap="round"/>
+<line x1="552" y1="244" x2="582.9" y2="180.3" stroke="#3b6fb6" stroke-width="1.8" marker-end="url(#arb)"/>
+<line x1="586" y1="174" x2="649.4" y2="151.4" stroke="#3b6fb6" stroke-width="1.8" marker-end="url(#arb)"/>
+<line x1="656" y1="149" x2="707.2" y2="203.9" stroke="#3b6fb6" stroke-width="1.8" marker-end="url(#arb)"/>
+<text x="530" y="280" font-size="10.5" font-weight="400" fill="#5b6475" text-anchor="start" >errors accumulate over the chunk</text>
+<circle cx="552" cy="244" r="5" fill="#fff" stroke="#1f2430" stroke-width="1.5"/>
+<text x="559" y="237" font-size="11" font-weight="600" fill="#1f2430" text-anchor="start" >T0</text>
+<circle cx="586" cy="174" r="5" fill="#fff" stroke="#1f2430" stroke-width="1.5"/>
+<text x="593" y="167" font-size="11" font-weight="600" fill="#1f2430" text-anchor="start" >T1</text>
+<circle cx="656" cy="149" r="5" fill="#fff" stroke="#1f2430" stroke-width="1.5"/>
+<text x="663" y="142" font-size="11" font-weight="600" fill="#1f2430" text-anchor="start" >T2</text>
+<circle cx="712" cy="209" r="5" fill="#fff" stroke="#1f2430" stroke-width="1.5"/>
+<text x="719" y="202" font-size="11" font-weight="600" fill="#1f2430" text-anchor="start" >T3</text>
+<rect x="24" y="304" width="716" height="44" rx="8" fill="#f5f7fa"/>
+<text x="38" y="322" font-size="11.5" font-weight="400" fill="#1f2430" text-anchor="start" >Mixed representations are normal: arm pose anchor-relative, gripper width absolute (metres).</text>
+<text x="38" y="338" font-size="11.5" font-weight="400" fill="#5b6475" text-anchor="start" >RDIR declares representation, reference frame, reference instant, units and rotation convention per action slice.</text></svg>
