@@ -6,6 +6,14 @@
 - [Deep research synthesis](research/deep-research.md) — evidence, risks, and
   recommendations behind the architecture
 - [Roadmap](roadmap.md) — proposed validation-first milestones
+- [Industry landscape 2026](research/industry-landscape-2026.md) — robotics data
+  platforms and autonomous-driving lessons
+
+## Perspectives
+
+- [Overview](perspectives/README.md) — role-based discussion documents
+- [Data supplier](perspectives/data-supplier.md)
+- [Training consumer](perspectives/training-consumer.md)
 
 ## Decisions
 
